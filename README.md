@@ -1,84 +1,78 @@
-# Nutref-app
-PROTOTYPE VIDEO
+# 🌿 Nutref App – Your Sustainable Nutrition Companion
 
-https://drive.google.com/file/d/1Zxyy7Z_jeOAVCGvIBE7Zecjr2DZ896YF/view?usp=drivesdk
+**Nutref** isn't just an app—it's your lifestyle companion, designed to blend **personal health**, **eco-consciousness**, and **community engagement**. With smart grocery tracking, recipe suggestions, personalized nutrition guidance, and donation management, Nutref empowers users to make mindful, sustainable choices every day.
 
-PRESENTATION LINK
+---
 
-https://docs.google.com/presentation/d/1Zxoq8dcVOMAc58927AzpBAbYseU05mpJ/edit?usp=drivesdk&ouid=110155921156206400056&rtpof=true&sd=true
+## 🎥 Prototype Demo
 
-Nutref isn't just an app; it's a lifestyle companion that seamlessly intertwines your well-being with environmental consciousness. Let's delve into how Nutref harmonizes with your lifestyle choices while promoting sustainability: 
+📽️ [Watch the Prototype Video](https://drive.google.com/file/d/1Zxyy7Z_jeOAVCGvIBE7Zecjr2DZ896YF/view?usp=drivesdk)
 
-Sustainable Ingredient Choices: 
-Nutref guides users towards local and seasonal produce for healthier meals and a reduced carbon footprint. 
+📊 [View the Presentation](https://docs.google.com/presentation/d/1Zxoq8dcVOMAc58927AzpBAbYseU05mpJ/edit?usp=drivesdk&ouid=110155921156206400056&rtpof=true&sd=true)
 
-Waste-Reducing Recipes: 
-By suggesting recipes based on available ingredients, Nutref minimizes food waste and promotes mindful consumption. 
+---
 
-Community-Driven Donations:
-The app facilitates easy sharing of surplus food with nearby organizations, fostering community engagement and reducing food insecurity. 
+## 🌟 Key Features
 
-Eco-Conscious Grocery Management: 
-Nutref's reminders for expiry dates and integration into meal planning promote efficient grocery management with an environmental focus.
+### 🌱 Sustainability-Driven
+- **Sustainable Ingredient Choices**: Recommends local, seasonal produce.
+- **Waste-Reducing Recipes**: Suggests meals based on available ingredients to cut food waste.
+- **Donation Integration**: Allows users to donate excess food to local organizations with real-time tracking.
 
-Personalized Nutrition Guidance: 
-The AI nutritionist provides tailored advice, promoting healthier lifestyle choices aligned with individual health goals. 
+### 🍽 Personalized Wellness
+- **AI Nutritionist**: Tailored advice based on your health profile and goals.
+- **Meal Planning Canvas**: Offers artistic and personalized recipe ideas (415+ combinations).
+- **Allergy & Diet-Friendly Recipes**: Personalized filters based on allergies, health issues, and diet preferences.
 
-Transparent Donation Process:
-Nutref streamlines food donations, creating a transparent exchange between users and organizations, promoting social responsibility.
+### 🧠 Smart Functionality
+- **Efficient Grocery Management**: Add grocery items with expiry dates and receive real-time reminders.
+- **Today Food**: Add what’s in your kitchen and get instant recipes.
+- **Meal Plan**: Personalized recipes based on your health and diet inputs.
 
-CREATIVITY: 
+### 👥 Community & Transparency
+- **Seamless Donations**: Specify excess food and send requests to nearby NGOs.
+- **Transparent Process**: Real-time status updates on who accepted the donation.
 
-Recipe Personalization: 
-Nutref tailors recipes to user preferences and available ingredients, turning kitchen moments into exciting culinary adventures.
+---
 
-AI Nutritionist: 
-Introduces an AI companion for engaging conversations and personalized advice on maintaining a healthy lifestyle. 
+## 🔧 Technology Stack
 
-Meal Planning Canvas: 
-"Today Food" feature transforms meal planning into a creative canvas, offering 415 artistic recipes based on user inputs.
+| Component       | Technologies                                      |
+|------------------|--------------------------------------------------|
+| **Frontend**     | HTML/CSS/React Native                            |
+| **Backend**      | Node.js (Express) / Flask                        |
+| **Database**     | PostgreSQL / MySQL                               |
+| **AI Integration** | TensorFlow                                     |
+| **Hosting**      | AWS / Google Cloud                               |
+| **Security**     | HTTPS, JWT Authentication, Encrypted Storage     |
 
-PRACTICALITY:
+---
 
-Efficient Grocery Management: 
-Streamlines grocery tracking, timely reminders for expiry dates, and integrates seamlessly into meal planning.
+## 🧭 User Flow
 
-Real-Time Reminders: 
-Provides practical real-time reminders for grocery items and recipe suggestions, ensuring users stay organized. 
+### 👤 User Onboarding:
+- Inputs: Height, Weight, Age, Gender
+- Options: Allergies, Health Issues, Dietary Preferences
 
-Donation Process:
-Efficiently facilitates food donations with transparent processes, fostering practical and meaningful community engagement.
+### 🏠 Home Screen:
+- **Today Food**: Ingredient-based recipe suggestions  
+- **Meal Plan**: Personalized meal suggestions  
+- **Grocery**: Track groceries with expiry reminders  
+- **Chat with AI**: Talk to the AI Nutritionist  
+- **Donations**: Share food with local NGOs  
 
-TECHNOLOGY STACK: 
+---
 
-Frontend: 
-Uses frameworks like React Native, Swift, or Kotlin for the user interface. 
+## 🔮 Future Enhancements
 
-Backend: 
-Handles business logic and database interactions using technologies like Node.js with Express, Django, or Flask. 
+- 📲 Release iOS & Android native apps
+- 📦 Integration with smart kitchen devices
+- 📊 Health analytics dashboard for users
+- 🌐 Multi-language support and global expansion
 
-Database: 
-Stores data in a relational database, possibly PostgreSQL or MySQL. 
+---
 
-AI Integration: 
-Implements AI features using frameworks like TensorFlow or PyTorch, possibly leveraging pre-existing AI services. 
+## ✅ Conclusion
 
-Cloud Hosting: 
-Deployed on cloud platforms like AWS, Google Cloud, or Heroku for scalability and accessibility. 
+Nutref redefines healthy living through a blend of **personalized nutrition**, **sustainability**, and **social responsibility**. Whether you’re planning meals, chatting with an AI nutritionist, or donating surplus food, Nutref ensures your actions contribute not only to your well-being but also to a better planet.
 
-Security Measures:
-Implements security measures such as HTTPS, user authentication protocols, and data encryption for user privacy.
-
-OVERVIEW: 
-
-The Nutref app offers a personalized experience tailored for both individual users and organizations. Upon opening the app, users are presented with two options: User and Organization. If the user selects "User," they are prompted to input essential health statistics such as height, weight, age, and gender. The app then inquires about any allergies (e.g., fish or gluten), health issues (e.g., blood pressure, diabetes, or thyroid), and dietary preferences (vegetarian, vegan, or non-vegetarian). Upon completing the health profile, users are directed to the home page, featuring five main options:
-
-Today Food:  Users can add the ingredients they have at home. The app generates recipes based on available ingredients, providing a list of 415 recipes for ingredients like eggs and onions. This feature ensures a quick and efficient way to utilize existing supplies.
-
-Meal Plan: Similar to the "Today Food" option, users add ingredients they have, and the app considers health statistics, issues, allergies, and diet preferences to present a curated list of recipes. For example, it narrows down the options to 145 recipes, ensuring a more personalized meal plan.
-
-Grocery:  This section displays a list of current grocery items at home. Users can add newly purchased items with their expiry dates. The app sends timely reminders when the expiry date approaches, facilitating efficient grocery management. Users can also integrate these items into the "Today Food" and "Meal Plan" options.
-
-Chat with AI: The app features a personalized chat with an AI nutritionist, providing users with valuable information and advice on maintaining a healthy lifestyle.
-
-Donations:  Users can donate excess food by specifying the quantity and sending a request to nearby organizations. The app informs users about which organization has accepted their donation request, fostering transparency and community engagement.
